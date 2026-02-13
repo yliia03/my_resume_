@@ -7,16 +7,16 @@ body {
 .portfolio-btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #c2b280; /* колір кнопки під фото */
+    background-color: #34495e; 
     color: white;
     text-decoration: none;
     border-radius: 8px;
     margin: 5px;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s; 
 }
 
 .portfolio-btn:hover {
-    background-color: #a69966; /* трохи темніший відтінок при наведенні */
+    background-color: #2c3e50; 
 }
 
 
