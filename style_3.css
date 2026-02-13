@@ -1,0 +1,35 @@
+/* Заголовок */
+article header h1 {
+    color: green;
+    font-family: Arial, sans-serif;
+}
+
+/* Автор */
+article header p {
+    color: white;
+    background-color: red;
+    padding: 5px;
+}
+
+/* Абзаци */
+article p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Зображення */
+article figure {
+    width: 600px;
+    border: 3px solid black;
+    margin: 10px 0;
+}
+
+article figure img {
+    width: 100%;
+    height: auto;
+}
+
+article figure figcaption {
+    text-align: center;
+    font-style: italic;
+}
