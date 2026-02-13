@@ -4,6 +4,21 @@ body {
     background: #f2f2f2;
 }
 
+/*ЛАБИ ЗВЕРХУ*/
+.portfolio-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6b9d;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    margin: 5px;
+}
+
+.portfolio-btn:hover {
+    background-color: #d94f7a;
+}
+
 /* МЕНЮ */
 .menu {
     list-style: none;
@@ -60,4 +75,5 @@ body {
 
 h1, h2 {
     margin-top: 0;
+
 }
