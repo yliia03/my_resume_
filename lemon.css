@@ -11,23 +11,29 @@
     border-radius: 4px;
     margin: 30px;
 }
+
 .lemon {
     width: 180px;
     height: 180px;
     margin: 10px;
+    background: url('lemon.jpg');
     background-size: contain;
-    background-position: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
     border-radius: 5px;
     float: left;
 }
+
 .avatar {
     width: 150px;
     height: 150px;
-    background: url('lemon.jpg');
+    background: url('photo.jpg');
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     border-radius: 50%;
 }
+
 .about-lemon h3 {
     text-align: center;
     padding: 10px 0;
