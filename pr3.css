@@ -30,7 +30,7 @@ img {
 
 header {
   height: 140px;
-  background-image: url("../images/header.png");
+  background-image: url("header.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
