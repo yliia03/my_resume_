@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #eaeaea;
+}
+
+img {
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.page-wrapper {
+  max-width: 860px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 30px 10px 20px;
+  background-color: #008499;
+}
+
+.content-wrap {
+  padding: 0 20px 20px;
+  background-color: #fff;
+}
+
+header {
+  height: 140px;
+  background-image: url("../images/header.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+main {
+  padding: 20px 30px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #333;
+}
+
+.mb-15 { margin-bottom: 15px; }
+.mb-20 { margin-bottom: 20px; }
+.t-center { text-align: center; }
+
+.list { padding-left: 40px; }
+.list li { margin-bottom: 5px; }
+
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.services-list-item { width: calc(33.33% - 14px); }
+
+.services-list-item__title {
+  padding: 10px 0;
+  text-align: center;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.btn {
+  height: 45px;
+  line-height: 45px;
+  background-color: #f53947;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  text-decoration: none;
+  display: block;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+.btn:hover { background-color: #d92f3c; }
+
+.link-btn { width: 100%; }
+
+main a[href^='tel:'] {
+  color: #000;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+footer {
+  margin-top: 20px;
+  padding: 25px 15px;
+  text-align: center;
+  color: #fff;
+  background-color: #0b7c84;
+  position: relative;
+}
+
+.social-links {
+  margin-bottom: 10px;
+}
+
+.social-links a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  color: #0b7c84;
+  margin: 0 6px;
+  text-align: center;
+  font-size: 18px;
+}
+
+footer p:nth-child(2) { margin: 10px 0; }
+footer a { color: #fff; text-decoration: underline; }
