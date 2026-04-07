@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<title>Геометричні фігури CSS</title>
+<style>
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 30px;
+  font-family: Arial;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.ua-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 50px;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background: red;
+}
+
+.rectangle {
+  width: 150px;
+  height: 100px;
+  background: green;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background: blue;
+  border-radius: 50%;
+}
+
+.oval {
+  width: 150px;
+  height: 100px;
+  background: purple;
+  border-radius: 50%;
+}
+
+.triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid orange;
+}
+
+.triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 100px solid pink;
+}
+
+.triangle-left {
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  border-right: 100px solid brown;
+}
+
+.triangle-right {
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  border-left: 100px solid black;
+}
+
+.diamond {
+  width: 100px;
+  height: 100px;
+  background: cyan;
+  transform: rotate(45deg);
+}
+
+.trapezoid {
+  width: 100px;
+  border-bottom: 100px solid teal;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+}
+
+.parallelogram {
+  width: 150px;
+  height: 100px;
+  background: gray;
+  transform: skew(20deg);
+}
+
+.ua1 {
+  width: 120px;
+  height: 120px;
+  background: #eee;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  box-shadow:
+    0 0 0 40px yellow,
+    0 0 0 80px blue;
+}
+
+.ua2 {
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  background: radial-gradient(
+    circle,
+    #eee 0 60px,
+    yellow 60px 120px,
+    blue 120px 100%
+  );
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="square"></div>
+  <div class="rectangle"></div>
+  <div class="circle"></div>
+  <div class="oval"></div>
+  <div class="triangle-up"></div>
+  <div class="triangle-down"></div>
+  <div class="triangle-left"></div>
+  <div class="triangle-right"></div>
+  <div class="diamond"></div>
+  <div class="trapezoid"></div>
+  <div class="parallelogram"></div>
+</div>
+
+<div class="ua-wrapper">
+  <div class="ua1">UA</div>
+  <div class="ua2">UA</div>
+</div>
+
+</body>
+</html>
