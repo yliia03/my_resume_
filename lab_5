@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Лабораторна 5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Лабораторна робота №5</h1>
+
+<div style="text-align:center; margin-top:30px;">
+
+    <a class="portfolio-btn" href="task0.html">Завдання 0</a><br><br>
+
+    <a class="portfolio-btn" href="task1-table.html">Завдання (table)</a><br><br>
+
+    <a class="portfolio-btn" href="task1-float.html">Завдання (float)</a>
+
+</div>
+
+</body>
+</html>
