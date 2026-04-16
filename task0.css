@@ -1,0 +1,54 @@
+body {
+    background: #eee;
+    font-family: Arial;
+}
+
+.wrapper {
+    width: 300px;
+    margin: 50px auto;
+}
+
+.card {
+    width: 260px;
+    border: 2px solid #00c16a;
+    background: #f5f5f5;
+    float: left;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    color: #00c16a;
+}
+
+.price {
+    background: #00c16a;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 28px;
+}
+
+.option {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+}
+
+.option:nth-child(even) {
+    background: #e0e0e0;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border: 2px solid #00c16a;
+    background: transparent;
+    color: #00c16a;
+    cursor: pointer;
+}

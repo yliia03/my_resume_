@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<title>Students Mark Sheet Float</title>
+<style>
+body {
+    font-family: Arial;
+    background: #eee;
+}
+
+.table {
+    width: 700px;
+    margin: 50px auto;
+}
+
+.row {
+    width: 100%;
+    clear: both;
+}
+
+.cell {
+    float: left;
+    width: 16.66%;
+    padding: 10px;
+    border: 1px solid #3a7d1c;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.title {
+    width: 100%;
+    background: #5fbf2f;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+.row:nth-child(even) .cell {
+    background: #cfe8b4;
+}
+
+.row:nth-child(odd) .cell {
+    background: #b7d89a;
+}
+
+.cell:first-child {
+    text-align: left;
+}
+</style>
+</head>
+<body>
+
+<div class="table">
+
+    <div class="row">
+        <div class="cell title">STUDENTS MARK SHEET</div>
+    </div>
+
+    <div class="row">
+        <div class="cell">Name</div>
+        <div class="cell">Maths</div>
+        <div class="cell">Science</div>
+        <div class="cell">English</div>
+        <div class="cell">Physics</div>
+        <div class="cell">General Knowledge</div>
+    </div>
+
+    <div class="row">
+        <div class="cell">David</div>
+        <div class="cell">85</div>
+        <div class="cell">87</div>
+        <div class="cell">88</div>
+        <div class="cell">92</div>
+        <div class="cell">88</div>
+    </div>
+
+    <div class="row">
+        <div class="cell">Richard</div>
+        <div class="cell">91</div>
+        <div class="cell">81</div>
+        <div class="cell">78</div>
+        <div class="cell">71</div>
+        <div class="cell">74</div>
+    </div>
+
+    <div class="row">
+        <div class="cell">John</div>
+        <div class="cell">81</div>
+        <div class="cell">86</div>
+        <div class="cell">88</div>
+        <div class="cell">84</div>
+        <div class="cell">92</div>
+    </div>
+
+    <div class="row">
+        <div class="cell">Tony</div>
+        <div class="cell">84</div>
+        <div class="cell">86</div>
+        <div class="cell">87</div>
+        <div class="cell">82</div>
+        <div class="cell">81</div>
+    </div>
+
+    <div class="row">
+        <div class="cell">Scott</div>
+        <div class="cell">71</div>
+        <div class="cell">79</div>
+        <div class="cell">82</div>
+        <div class="cell">88</div>
+        <div class="cell">89</div>
+    </div>
+
+</div>
+
+</body>
+</html>
